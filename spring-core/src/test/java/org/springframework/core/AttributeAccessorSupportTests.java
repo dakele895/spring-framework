@@ -35,6 +35,10 @@ public class AttributeAccessorSupportTests {
 
 	private AttributeAccessor attributeAccessor = new SimpleAttributeAccessorSupport();
 
+	/**
+	 * 属性添加
+	 * @throws Exception
+	 */
 	@Test
 	public void setAndGet() throws Exception {
 		this.attributeAccessor.setAttribute(NAME, VALUE);

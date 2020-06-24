@@ -28,6 +28,7 @@ import org.springframework.lang.Nullable;
  * @author Juergen Hoeller
  * @since 4.3
  * @see DefaultResourceLoader#addProtocolResolver
+ * 用户自定义协议资源解决策略
  */
 @FunctionalInterface
 public interface ProtocolResolver {
